@@ -1,14 +1,13 @@
 import * as React from "react";
 
+import AllTeams from "../components/AllTeams";
+
 interface Homeprops {
     user: string;
 }
 
 const Home = (props: Homeprops) => (
-    <div>
-        <h2>Home Page</h2>
-        <p>Hello {props.user}</p>
-    </div>
+    <AllTeams teamsUrl="data/2018/teams.json" fixturesUrl="data/2018/matches.json"/>
 );
 
 export default Home;

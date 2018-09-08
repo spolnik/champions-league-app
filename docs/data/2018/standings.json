@@ -1,0 +1,1726 @@
+{
+  "filters": {},
+  "competition": {
+    "id": 2001,
+    "area": {
+      "id": 2077,
+      "name": "Europe"
+    },
+    "name": "UEFA Champions League",
+    "code": "CL",
+    "plan": "TIER_ONE",
+    "lastUpdated": "2018-08-30T00:15:01Z"
+  },
+  "season": {
+    "id": 175,
+    "startDate": "2018-06-26",
+    "endDate": "2019-06-01",
+    "currentMatchday": 6
+  },
+  "standings": [
+    {
+      "stage": "GROUP_STAGE",
+      "type": "TOTAL",
+      "group": "GROUP_A",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 4,
+            "name": "BV Borussia 09 Dortmund",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/3c/AS_Monaco.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/c/c1/Atletico_Madrid_logo.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 851,
+            "name": "Club Brugge KV",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "HOME",
+      "group": "GROUP_A",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 4,
+            "name": "BV Borussia 09 Dortmund",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/3c/AS_Monaco.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/c/c1/Atletico_Madrid_logo.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 851,
+            "name": "Club Brugge KV",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "AWAY",
+      "group": "GROUP_A",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 4,
+            "name": "BV Borussia 09 Dortmund",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/3c/AS_Monaco.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/c/c1/Atletico_Madrid_logo.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 851,
+            "name": "Club Brugge KV",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "TOTAL",
+      "group": "GROUP_B",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 73,
+            "name": "Tottenham Hotspur FC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b4/Tottenham_Hotspur.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/aa/Fc_barcelona.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Inter_Milan.svg/316px-Inter_Milan.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 674,
+            "name": "PSV",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/05/PSV_Eindhoven.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "HOME",
+      "group": "GROUP_B",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 73,
+            "name": "Tottenham Hotspur FC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b4/Tottenham_Hotspur.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/aa/Fc_barcelona.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Inter_Milan.svg/316px-Inter_Milan.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 674,
+            "name": "PSV",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/05/PSV_Eindhoven.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "AWAY",
+      "group": "GROUP_B",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 73,
+            "name": "Tottenham Hotspur FC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b4/Tottenham_Hotspur.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/aa/Fc_barcelona.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Inter_Milan.svg/316px-Inter_Milan.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 674,
+            "name": "PSV",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/05/PSV_Eindhoven.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "TOTAL",
+      "group": "GROUP_C",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0a/FC_Liverpool.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/316px-Paris_Saint-Germain_F.C.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/2/28/S.S.C._Napoli_logo.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 7283,
+            "name": "FK Crvena Zvezda",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "HOME",
+      "group": "GROUP_C",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0a/FC_Liverpool.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/316px-Paris_Saint-Germain_F.C.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/2/28/S.S.C._Napoli_logo.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 7283,
+            "name": "FK Crvena Zvezda",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "AWAY",
+      "group": "GROUP_C",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0a/FC_Liverpool.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/316px-Paris_Saint-Germain_F.C.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 113,
+            "name": "SSC Napoli",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/2/28/S.S.C._Napoli_logo.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 7283,
+            "name": "FK Crvena Zvezda",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "TOTAL",
+      "group": "GROUP_D",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 6,
+            "name": "FC Schalke 04",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 503,
+            "name": "FC Porto",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/ed/FC_Porto_1922-2005.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 610,
+            "name": "Galatasaray SK",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Galatasaray_Sports_Club_Logo.png"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 5455,
+            "name": "FK Lokomotiv Moskva",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "HOME",
+      "group": "GROUP_D",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 6,
+            "name": "FC Schalke 04",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 503,
+            "name": "FC Porto",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/ed/FC_Porto_1922-2005.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 610,
+            "name": "Galatasaray SK",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Galatasaray_Sports_Club_Logo.png"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 5455,
+            "name": "FK Lokomotiv Moskva",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "AWAY",
+      "group": "GROUP_D",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 6,
+            "name": "FC Schalke 04",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 503,
+            "name": "FC Porto",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/ed/FC_Porto_1922-2005.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 610,
+            "name": "Galatasaray SK",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Galatasaray_Sports_Club_Logo.png"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 5455,
+            "name": "FK Lokomotiv Moskva",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "TOTAL",
+      "group": "GROUP_E",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 678,
+            "name": "AFC Ajax",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/79/Ajax_Amsterdam.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 1899,
+            "name": "PAE AEK",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "HOME",
+      "group": "GROUP_E",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 678,
+            "name": "AFC Ajax",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/79/Ajax_Amsterdam.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 1899,
+            "name": "PAE AEK",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "AWAY",
+      "group": "GROUP_E",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 678,
+            "name": "AFC Ajax",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/79/Ajax_Amsterdam.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 1903,
+            "name": "Sport Lisboa e Benfica",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 1899,
+            "name": "PAE AEK",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "TOTAL",
+      "group": "GROUP_F",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/f/f1/Olympique_Lyon.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 1887,
+            "name": "FK Shakhtar Donetsk",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "HOME",
+      "group": "GROUP_F",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/f/f1/Olympique_Lyon.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 1887,
+            "name": "FK Shakhtar Donetsk",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "AWAY",
+      "group": "GROUP_F",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 65,
+            "name": "Manchester City FC",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/f/f1/Olympique_Lyon.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 1887,
+            "name": "FK Shakhtar Donetsk",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "TOTAL",
+      "group": "GROUP_G",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/3f/Real_Madrid_Logo.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 100,
+            "name": "AS Roma",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/32/AS_Rom.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 1900,
+            "name": "PFC CSKA Moskva",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 1881,
+            "name": "FC Viktoria Plzeň",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "HOME",
+      "group": "GROUP_G",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/3f/Real_Madrid_Logo.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 100,
+            "name": "AS Roma",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/32/AS_Rom.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 1900,
+            "name": "PFC CSKA Moskva",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 1881,
+            "name": "FC Viktoria Plzeň",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "AWAY",
+      "group": "GROUP_G",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/3f/Real_Madrid_Logo.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 100,
+            "name": "AS Roma",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/32/AS_Rom.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 1900,
+            "name": "PFC CSKA Moskva",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 1881,
+            "name": "FC Viktoria Plzeň",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "TOTAL",
+      "group": "GROUP_H",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 66,
+            "name": "Manchester United FC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/d/da/Manchester_United_FC.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 95,
+            "name": "Valencia CF",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/75/FC_Valencia.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 109,
+            "name": "Juventus FC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/d/d2/Juventus_Turin.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 1871,
+            "name": "BSC Young Boys",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "HOME",
+      "group": "GROUP_H",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 66,
+            "name": "Manchester United FC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/d/da/Manchester_United_FC.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 95,
+            "name": "Valencia CF",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/75/FC_Valencia.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 109,
+            "name": "Juventus FC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/d/d2/Juventus_Turin.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 1871,
+            "name": "BSC Young Boys",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "AWAY",
+      "group": "GROUP_H",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 66,
+            "name": "Manchester United FC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/d/da/Manchester_United_FC.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 95,
+            "name": "Valencia CF",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/75/FC_Valencia.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 109,
+            "name": "Juventus FC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/d/d2/Juventus_Turin.svg"
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 1871,
+            "name": "BSC Young Boys",
+            "crestUrl": null
+          },
+          "playedGames": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        }
+      ]
+    }
+  ]
+}
