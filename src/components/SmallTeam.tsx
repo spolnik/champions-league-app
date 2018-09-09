@@ -1,13 +1,15 @@
-import React from 'react';
+import * as React from "react";
+import Team from "../domain/Team";
 
-export default class SmallTeam extends React.Component {
-
-    render() {
-        return (
-            <span>
-                <img src={this.props.team.crestUrl} alt={this.props.team.name} className="img-small"/>
-                <span className="short-name">{this.props.team.shortName}</span>
-            </span>
-        );
-    }
+interface SmallTeamProps {
+    team: Team;
 }
+
+const SmallTeam = (props: SmallTeamProps) => (
+    <span>
+        <img src={props.team.crestUrl} alt={props.team.shortName} className="img-small"/>
+        <span className="short-name">{props.team.shortName}</span>
+    </span>
+);
+
+export default SmallTeam;

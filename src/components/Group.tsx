@@ -1,16 +1,27 @@
-import React from 'react';
-import Team from './Team';
-import Standings from './Standings';
-import Fixtures from './Fixtures';
+import * as React from "react";
+import Group from "../domain/Group";
+import Fixtures from "./Fixtures";
+import Standings from "./Standings";
+import Team from "./Team";
 
-export default class GroupBlock extends React.Component {
+interface GroupBlockProps {
+    group: Group;
+}
 
-    render() {
-        let teamNodes = this.props.group.teams.sort((a, b) =>
-            parseInt(b.squadMarketValue) - parseInt(a.squadMarketValue)
-        ).map(team =>
-            <Team name={team.shortName} logoUrl={team.crestUrl} marketValue={team.squadMarketValue} key={team.shortName}/>
-        );
+export default class GroupBlock extends React.Component<GroupBlockProps> {
+
+    public render() {
+        const teamNodes = this.props.group.teams.sort((a, b) =>
+            parseInt(b.squadMarketValue, 10) - parseInt(a.squadMarketValue, 10),
+        ).map((team) => (
+            <Team
+                name={team.shortName}
+                logoUrl={team.crestUrl}
+                marketValue={team.squadMarketValue}
+                founded={team.founded}
+                key={team.shortName}
+            />
+        ));
 
         return (
             <div className="group" id={this.props.group.name.toLowerCase()}>
@@ -22,24 +33,47 @@ export default class GroupBlock extends React.Component {
                     <div className="panel-body">
                         <ul className="nav nav-tabs" role="tablist">
                             <li role="presentation" className="active">
-                                <a href={`#standings${this.props.group.name}`} aria-controls={`standings${this.props.group.name}`}
-                                   role="tab" data-toggle="tab">Standings</a>
+                                <a
+                                    href={`#standings${this.props.group.name}`}
+                                    aria-controls={`standings${this.props.group.name}`}
+                                    role="tab"
+                                    data-toggle="tab"
+                                >
+                                    Standings
+                                </a>
                             </li>
                             <li role="presentation">
-                                <a href={`#fixtures${this.props.group.name}`} aria-controls={`fixtures${this.props.group.name}`}
-                                   role="tab" data-toggle="tab">Fixtures</a>
+                                <a
+                                    href={`#fixtures${this.props.group.name}`}
+                                    aria-controls={`fixtures${this.props.group.name}`}
+                                    role="tab"
+                                    data-toggle="tab"
+                                >
+                                    Fixtures
+                                </a>
                             </li>
                             <li role="presentation">
-                                <a href={`#teams${this.props.group.name}`} aria-controls={`teams${this.props.group.name}`}
-                                   role="tab" data-toggle="tab">Teams</a>
+                                <a
+                                    href={`#teams${this.props.group.name}`}
+                                    aria-controls={`teams${this.props.group.name}`}
+                                    role="tab"
+                                    data-toggle="tab"
+                                >
+                                    Teams
+                                </a>
                             </li>
                         </ul>
 
                         <div className="tab-content">
-                            <div role="tabpanel" className="tab-pane fade in active" id={`standings${this.props.group.name}`}>
-                                <Standings group={this.props.group}/></div>
+                            <div
+                                role="tabpanel"
+                                className="tab-pane fade in active"
+                                id={`standings${this.props.group.name}`}
+                            >
+                                <Standings group={this.props.group}/>
+                            </div>
                             <div role="tabpanel" className="tab-pane fade" id={`fixtures${this.props.group.name}`}>
-                                <Fixtures fixtures={this.props.group.fixtures} numOfMatchDay={6}/></div>
+                                <Fixtures matches={this.props.group.matches} numOfMatchDay={6}/></div>
                             <div role="tabpanel" className="tab-pane fade" id={`teams${this.props.group.name}`}>
                                 {teamNodes}
                             </div>

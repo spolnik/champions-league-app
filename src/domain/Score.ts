@@ -6,7 +6,7 @@ export default class Score {
     public readonly halfTime: Result;
     public readonly extraTime: Result | null;
     public readonly penalties: Result | null;
-    public readonly aggregate: Result | null;
+    public aggregate: Result | null;
 
     constructor(
         duration: string,

@@ -1,34 +1,37 @@
-import React from 'react';
-import ReactTooltip from 'react-tooltip';
-import TableRow from './TableRow';
-import TeamGroupResults from '../domain/TeamGroupResults';
+import * as React from "react";
+import * as ReactTooltip from "react-tooltip";
+import Group from "../domain/Group";
+import TeamGroupResults from "../domain/TeamGroupResults";
+import TableRow from "./TableRow";
 
-export default class Standings extends React.Component {
+interface StandingsProps {
+    group: Group;
+}
 
-    static standingsSort(a, b) {
+export default class Standings extends React.Component<StandingsProps> {
 
+    private static standingsSort(a: TeamGroupResults, b: TeamGroupResults) {
         if (a.points === b.points) {
             if (a.goalsDifference === b.goalsDifference) {
                 return b.goalsFor - a.goalsFor;
             }
-
             return b.goalsDifference - a.goalsDifference;
         }
 
         return b.points - a.points;
     }
 
-    render() {
-
-        let teams = this.props.group.teams.map(team => {
-            let teamFixtures = this.props.group.fixtures.filter(fixture =>
-            fixture.homeTeamName === team.name || fixture.awayTeamName === team.name);
+    public render() {
+        const teams = this.props.group.teams.map((team) => {
+            const teamFixtures = this.props.group.matches.filter((match) =>
+                match.homeTeam.id === team.id || match.awayTeam.id === team.id,
+            );
 
             return new TeamGroupResults(team, teamFixtures);
         });
 
-        let teamRows = teams.sort(Standings.standingsSort).map((team, id) => {
-            return <TableRow id={id} team={team} key={team.name}/>;
+        const teamRows = teams.sort(Standings.standingsSort).map((teamGroupResults, id) => {
+            return <TableRow id={id} teamGroupResults={teamGroupResults} key={teamGroupResults.name}/>;
         });
 
         return (

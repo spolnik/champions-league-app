@@ -1,8 +1,8 @@
 export default class Result {
-    public readonly homeTeam: number | null;
-    public readonly awayTeam: number | null;
+    public readonly homeTeam: number;
+    public readonly awayTeam: number;
 
-    constructor(homeTeam: number | null, awayTeam: number | null) {
+    constructor(homeTeam: number, awayTeam: number) {
         this.homeTeam = homeTeam;
         this.awayTeam = awayTeam;
     }

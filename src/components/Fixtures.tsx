@@ -1,10 +1,10 @@
 import * as React from "react";
-import Fixture from "./Fixture";
+import Match from "../domain/Match";
 import Fixture from "./Fixture";
 
 interface FixturesProps {
     numOfMatchDay: number;
-    fixtures: Fixture[];
+    matches: Match[];
 }
 
 interface FixturesState {
@@ -19,12 +19,12 @@ export default class Fixtures extends React.Component<FixturesProps, FixturesSta
     }
 
     public render() {
-        const fixtureNodes = this.props.fixtures.filter((_: {}, id: number) => {
+        const fixtureNodes = this.props.matches.filter((_: {}, id: number) => {
             const to = this.state.round * 2;
             const from = this.state.round * 2 - 2;
 
             return id >= from && id < to;
-        }).map((fixture, idx) => <Fixture fixture={fixture} key={idx}/>);
+        }).map((match, idx) => <Fixture match={match} key={idx}/>);
 
         return (
             <div className="fixtures">

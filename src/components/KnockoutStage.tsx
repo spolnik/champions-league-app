@@ -1,25 +1,25 @@
 import * as React from "react";
-import Fixture from "./Fixture";
+
+import Match from "../domain/Match";
 import Fixtures from "./Fixtures";
 
 interface KnockoutStageProps {
     name: string;
-    fixtures: Fixture[];
+    matches: Match[];
+    numOfMatchDay: number;
 }
 
-export default class KnockoutStage extends React.Component<KnockoutStageProps> {
-    public render() {
-        return (
-            <div className="group" id={this.props.name.toLowerCase()}>
-                <div className="panel panel-default">
-                    <div className="panel-heading">
-                        <h2 className="panel-title">{this.props.name}</h2>
-                    </div>
-                    <div className="panel-body">
-                        <Fixtures fixtures={this.props.fixtures} numOfMatchDay={this.props.numOfMatchDay}/>
-                    </div>
-                </div>
+const KnockoutStage = (props: KnockoutStageProps) => (
+    <div className="group" id={props.name.toLowerCase()}>
+        <div className="panel panel-default">
+            <div className="panel-heading">
+                <h2 className="panel-title">{props.name}</h2>
             </div>
-        );
-    }
-}
+            <div className="panel-body">
+                <Fixtures matches={props.matches} numOfMatchDay={props.numOfMatchDay}/>
+            </div>
+        </div>
+    </div>
+);
+
+export default KnockoutStage;

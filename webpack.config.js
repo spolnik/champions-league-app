@@ -58,6 +58,14 @@ module.exports = {
     },
     mode: dev ? 'development' : 'production',
     plugins: dev
-        ? [HTMLWebpackPluginConfig, new webpack.HotModuleReplacementPlugin()]
-        : [HTMLWebpackPluginConfig, DefinePluginConfig],
+        ? [HTMLWebpackPluginConfig, new webpack.HotModuleReplacementPlugin(), new webpack.ProvidePlugin({
+            $: "jquery",
+            jQuery: "jquery",
+            "window.jQuery": "jquery"
+        })]
+        : [HTMLWebpackPluginConfig, DefinePluginConfig, new webpack.ProvidePlugin({
+            $: "jquery",
+            jQuery: "jquery",
+            "window.jQuery": "jquery"
+        })],
 };
