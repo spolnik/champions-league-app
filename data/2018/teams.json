@@ -6,7 +6,8 @@
     "tla": "HOF",
     "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg",
     "founded": 1921,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "F"
   },
   {
     "id": 4,
@@ -15,7 +16,8 @@
     "tla": "BVB",
     "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg",
     "founded": 1909,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "A"
   },
   {
     "id": 5,
@@ -24,7 +26,8 @@
     "tla": "BAY",
     "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg",
     "founded": 1900,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "E"
   },
   {
     "id": 6,
@@ -33,7 +36,8 @@
     "tla": "S04",
     "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg",
     "founded": 1904,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "D"
   },
   {
     "id": 64,
@@ -42,7 +46,8 @@
     "tla": "LIV",
     "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0a/FC_Liverpool.svg",
     "founded": 1892,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "C"
   },
   {
     "id": 65,
@@ -51,7 +56,8 @@
     "tla": "MCFC",
     "crestUrl": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
     "founded": 1880,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "F"
   },
   {
     "id": 66,
@@ -60,7 +66,8 @@
     "tla": "MUFC",
     "crestUrl": "http://upload.wikimedia.org/wikipedia/de/d/da/Manchester_United_FC.svg",
     "founded": 1878,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "H"
   },
   {
     "id": 73,
@@ -69,7 +76,8 @@
     "tla": "THFC",
     "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b4/Tottenham_Hotspur.svg",
     "founded": 1882,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "B"
   },
   {
     "id": 78,
@@ -78,7 +86,8 @@
     "tla": "ATM",
     "crestUrl": "http://upload.wikimedia.org/wikipedia/de/c/c1/Atletico_Madrid_logo.svg",
     "founded": 1903,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "A"
   },
   {
     "id": 81,
@@ -87,7 +96,8 @@
     "tla": "FCB",
     "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/aa/Fc_barcelona.svg",
     "founded": 1899,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "B"
   },
   {
     "id": 86,
@@ -96,7 +106,8 @@
     "tla": "MAD",
     "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/3f/Real_Madrid_Logo.svg",
     "founded": 1902,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "G"
   },
   {
     "id": 95,
@@ -105,7 +116,8 @@
     "tla": "VAL",
     "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/75/FC_Valencia.svg",
     "founded": 1919,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "H"
   },
   {
     "id": 100,
@@ -114,7 +126,8 @@
     "tla": "ROM",
     "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/32/AS_Rom.svg",
     "founded": 1927,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "G"
   },
   {
     "id": 108,
@@ -123,7 +136,8 @@
     "tla": "Int",
     "crestUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Inter_Milan.svg/316px-Inter_Milan.svg",
     "founded": 1908,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "B"
   },
   {
     "id": 109,
@@ -132,7 +146,8 @@
     "tla": "JUVE",
     "crestUrl": "http://upload.wikimedia.org/wikipedia/de/d/d2/Juventus_Turin.svg",
     "founded": 1897,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "H"
   },
   {
     "id": 113,
@@ -141,7 +156,8 @@
     "tla": "SSC",
     "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/2/28/S.S.C._Napoli_logo.svg",
     "founded": 1904,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "C"
   },
   {
     "id": 503,
@@ -150,7 +166,8 @@
     "tla": "FCP",
     "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/ed/FC_Porto_1922-2005.svg",
     "founded": 1893,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "D"
   },
   {
     "id": 523,
@@ -159,7 +176,8 @@
     "tla": "OLY",
     "crestUrl": "http://upload.wikimedia.org/wikipedia/de/f/f1/Olympique_Lyon.svg",
     "founded": 1896,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "F"
   },
   {
     "id": 524,
@@ -168,7 +186,8 @@
     "tla": "PSG",
     "crestUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/316px-Paris_Saint-Germain_F.C.svg",
     "founded": 1904,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "C"
   },
   {
     "id": 548,
@@ -177,7 +196,8 @@
     "tla": "MON",
     "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/3c/AS_Monaco.svg",
     "founded": 1919,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "A"
   },
   {
     "id": 610,
@@ -186,7 +206,8 @@
     "tla": "GSK",
     "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Galatasaray_Sports_Club_Logo.png",
     "founded": 1905,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "D"
   },
   {
     "id": 674,
@@ -195,7 +216,8 @@
     "tla": "PSV",
     "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/05/PSV_Eindhoven.svg",
     "founded": 1913,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "B"
   },
   {
     "id": 678,
@@ -204,7 +226,8 @@
     "tla": "AJX",
     "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/79/Ajax_Amsterdam.svg",
     "founded": 1900,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "E"
   },
   {
     "id": 851,
@@ -213,7 +236,8 @@
     "tla": "BKV",
     "crestUrl": "https://upload.wikimedia.org/wikipedia/en/d/d0/Club_Brugge_KV_logo.svg",
     "founded": 1894,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "A"
   },
   {
     "id": 1871,
@@ -222,7 +246,8 @@
     "tla": "BSC",
     "crestUrl": "https://upload.wikimedia.org/wikipedia/en/6/6b/BSC_Young_Boys_logo.svg",
     "founded": 1898,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "H"
   },
   {
     "id": 1881,
@@ -231,7 +256,8 @@
     "tla": "FCV",
     "crestUrl": "https://upload.wikimedia.org/wikipedia/en/d/dc/Znak_Viktoria_Plzen.png",
     "founded": 1911,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "G"
   },
   {
     "id": 1887,
@@ -240,7 +266,8 @@
     "tla": "SHA",
     "crestUrl": "https://upload.wikimedia.org/wikipedia/en/a/a1/FC_Shakhtar_Donetsk.svg",
     "founded": 1936,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "F"
   },
   {
     "id": 1899,
@@ -249,7 +276,8 @@
     "tla": "AEK",
     "crestUrl": "https://upload.wikimedia.org/wikipedia/en/0/04/AEK_Athens_FC_logo.svg",
     "founded": 1924,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "E"
   },
   {
     "id": 1900,
@@ -258,7 +286,8 @@
     "tla": "CSK",
     "crestUrl": "https://upload.wikimedia.org/wikipedia/en/2/26/PFK_CSKA_Logo.svg",
     "founded": 1911,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "G"
   },
   {
     "id": 1903,
@@ -267,7 +296,8 @@
     "tla": "BEN",
     "crestUrl": "http://upload.wikimedia.org/wikipedia/de/8/89/Logo_Benfica_Lissabon.svg",
     "founded": 1904,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "E"
   },
   {
     "id": 5455,
@@ -276,7 +306,8 @@
     "tla": "FKL",
     "crestUrl": "https://upload.wikimedia.org/wikipedia/en/9/95/FC_Lokomotiv_Moscow.png",
     "founded": 1923,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "D"
   },
   {
     "id": 7283,
@@ -285,6 +316,7 @@
     "tla": "ZVE",
     "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Logo_FC_Red_Star_Belgrade.svg",
     "founded": 1945,
-    "squadMarketValue": null
+    "squadMarketValue": null,
+    "group": "C"
   }
 ]
