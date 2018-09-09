@@ -1,6 +1,7 @@
 import * as React from "react";
 import Match from "../domain/Match";
 import Fixture from "./Fixture";
+import {Pagination, PaginationItem, PaginationLink} from "reactstrap";
 
 interface FixturesProps {
     numOfMatchDay: number;
@@ -26,40 +27,48 @@ export default class Fixtures extends React.Component<FixturesProps, FixturesSta
             return id >= from && id < to;
         }).map((match, idx) => <Fixture match={match} key={idx}/>);
 
+        const paginationItemNodes = [...Array(this.props.numOfMatchDay).keys()]
+            .map((idx) => idx + 1)
+            .map((idx) => (
+                <PaginationItem active={this.state.round === idx}>
+                    <PaginationLink href="javascript:void(0)" onClick={() => this.changeRound(idx)}>
+                        {idx}
+                    </PaginationLink>
+                </PaginationItem>
+            ));
+
         return (
             <div style={{marginTop: "30px"}}>
                 <ul className="col-md-12 list-group">
                     {fixtureNodes}
                 </ul>
-                <nav className="col-md-12">
-                    <ul className="pager">
-                        <li className="previous">
-                            <a href="javascript:void(0)" onClick={this.previousRound.bind(this)}>Previous</a>
-                        </li>
-                        <li className="next">
-                            <a href="javascript:void(0)" onClick={this.nextRound.bind(this)}>Next</a>
-                        </li>
-                    </ul>
-                </nav>
+                <Pagination style={{marginTop: "10px"}}>
+                    <PaginationItem>
+                        <PaginationLink
+                            previous
+                            href="javascript:void(0)"
+                            onClick={() => this.changeRound(this.state.round - 1)}
+                        />
+                    </PaginationItem>
+                    {paginationItemNodes}
+                    <PaginationItem>
+                        <PaginationLink
+                            next
+                            href="javascript:void(0)"
+                            onClick={() => this.changeRound(this.state.round + 1)}
+                        />
+                    </PaginationItem>
+                </Pagination>
             </div>
         );
     }
 
-    private previousRound() {
+    private changeRound(newRound: number) {
         const FIRST_ROUND = 1;
-        const round = this.state.round;
-
-        if (round > FIRST_ROUND) {
-            this.setState({round: round - 1});
-        }
-    }
-
-    private nextRound() {
         const LAST_ROUND = this.props.numOfMatchDay;
-        const round = this.state.round;
 
-        if (round < LAST_ROUND) {
-            this.setState({round: round + 1});
+        if (newRound >= FIRST_ROUND && newRound <= LAST_ROUND) {
+            this.setState({round: newRound});
         }
     }
 }

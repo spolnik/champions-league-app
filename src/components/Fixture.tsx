@@ -37,15 +37,15 @@ export default class Fixture extends React.Component<FixtureProps> {
             );
         }
 
-        if (this.props.match.score.extraTime) {
+        if (this.props.match.score.extraTime && this.props.match.score.extraTime.homeTeam) {
             matchResult =
                 `${this.props.match.score.extraTime.homeTeam} : ${this.props.match.score.extraTime.awayTeam}`;
         }
 
         let penalties;
-        if (this.props.match.score.penalties) {
+        if (this.props.match.score.penalties && this.props.match.score.penalties.homeTeam) {
             penalties = `(${this.props.match.score.penalties.homeTeam}-${this.props.match.score.penalties.awayTeam} p)`;
-        } else if (this.props.match.score.extraTime) {
+        } else if (this.props.match.score.extraTime && this.props.match.score.extraTime.homeTeam) {
             penalties = "Extra Time";
         }
 
