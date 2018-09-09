@@ -13,7 +13,14 @@ const Routes = () => (
                 <Home {...routeProps} />
             )}
         />
-        <Route path="/about" component={About} />
+        <Route
+            exact
+            path="/champions-league-app"
+            // tslint:disable-next-line:jsx-no-lambda
+            render={(routeProps: RouteProps) => (
+                <Home {...routeProps} />
+            )}
+        />
     </Switch>
 );
 

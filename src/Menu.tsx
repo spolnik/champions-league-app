@@ -36,15 +36,16 @@ export default class Menu extends React.Component<{}, {isOpen: boolean}> {
     public render() {
         return (
             <Navbar color="dark" dark fixed="top" expand="md">
-                <NavbarBrand href="/"><FontAwesomeIcon icon={"futbol"}/> UEFA Champions League</NavbarBrand>
+                <NavbarBrand href="/champions-league-app">
+                    <FontAwesomeIcon icon={"futbol"}/> UEFA Champions League
+                </NavbarBrand>
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <NavLink tag={Link} href="/" to="/">Home</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink tag={Link} href="/about" to="/about">About</NavLink>
+                            <NavLink tag={Link} href="/champions-league-app" to="/champions-league-app">
+                                2018/2019
+                            </NavLink>
                         </NavItem>
                         <UncontrolledDropdown nav inNavbar>
                             <DropdownToggle nav caret>
