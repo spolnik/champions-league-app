@@ -5,55 +5,10 @@ body {
     font-weight: normal;
 }
 
-.img-thumbnail {
-    width: 140px;
-    height: 140px;
-}
-
-.img-small {
-    width: 25px;
-    height: 25px;
-}
-
-.short-name {
-    margin-left: 10px;
-}
-
 footer {
     padding: 10px 20px;
 }
 
-.group {
-    padding-top: 55px;
-}
-
-.fixture {
-    margin: 10px 0;
-    font-size: 1.5em;
-}
-
-.navbar-inverse {
-    background-color: transparent;
-}
-
 .table {
     margin-top: 17px;
-}
-
-.match-logo {
-    height: 3em;
-}
-
-.fixtures {
-    margin-top: 30px;
-}
-
-.match-result {
-    font-weight: bold;
-    font-size: 1.5em;
-}
-
-.react-logo {
-    width: 100px;
-    height: auto;
 }

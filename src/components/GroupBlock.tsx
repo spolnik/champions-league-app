@@ -46,7 +46,7 @@ export default class GroupBlock extends React.Component<GroupBlockProps, GroupBl
         ));
 
         return (
-            <div className="group" id={this.props.group.name.toLowerCase()}>
+            <div style={{paddingTop: "50px"}} id={this.props.group.name.toLowerCase()}>
                 <h2>Group {this.props.group.name}</h2>
                 <Nav tabs>
                     <NavItem>

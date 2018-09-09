@@ -5,6 +5,16 @@ interface FixtureProps {
     match: Match;
 }
 
+const fixtureStyle = {
+    fontSize: "1.5em",
+    margin: "10px 0",
+};
+
+const matchResultStyle = {
+    fontSize: "1.5em",
+    fontWeight: "bold",
+};
+
 export default class Fixture extends React.Component<FixtureProps> {
 
     public render() {
@@ -42,22 +52,24 @@ export default class Fixture extends React.Component<FixtureProps> {
         return (
             <li className="list-group-item">
                 <div><h6>{matchDate}</h6></div>
-                <div className="row text-center fixture">
+                <div className="row text-center" style={fixtureStyle}>
                     <span className="col-md-3 col-md-offset-1">{this.props.match.homeTeam.shortName}</span>
                     <img
                         src={this.props.match.homeTeam.crestUrl}
                         alt={this.props.match.homeTeam.shortName}
-                        className="img-responsive match-logo col-md-1"
+                        className="img-responsive col-md-1"
+                        style={{height: "3em"}}
                     />
                     <div className="col-md-2">
-                        <div><span className="match-result">{matchResult}</span></div>
+                        <div><span style={matchResultStyle}>{matchResult}</span></div>
                         {aggregateResult}
                         <span className="text-success" style={{fontSize: "0.7em"}}>{penalties}</span>
                     </div>
                     <img
                         src={this.props.match.awayTeam.crestUrl}
                         alt={this.props.match.awayTeam.shortName}
-                        className="img-responsive match-logo col-md-1"
+                        className="img-responsive col-md-1"
+                        style={{height: "3em"}}
                     />
                     <span className="col-md-3">{this.props.match.awayTeam.shortName}</span>
                 </div>

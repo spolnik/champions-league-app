@@ -4,7 +4,7 @@ import Group from "../domain/Group";
 import RawMatch from "../domain/RawMatch";
 import Team from "../domain/Team";
 
-import GroupBlock from "./Group";
+import GroupBlock from "./GroupBlock";
 import KnockoutStage from "./KnockoutStage";
 
 interface AllTeamsProps {

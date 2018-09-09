@@ -27,7 +27,7 @@ export default class Fixtures extends React.Component<FixturesProps, FixturesSta
         }).map((match, idx) => <Fixture match={match} key={idx}/>);
 
         return (
-            <div className="fixtures">
+            <div style={{marginTop: "30px"}}>
                 <ul className="col-md-12 list-group">
                     {fixtureNodes}
                 </ul>
