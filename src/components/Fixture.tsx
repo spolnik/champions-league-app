@@ -2,38 +2,40 @@ import * as React from "react";
 import Match from "../domain/Match";
 
 interface FixtureProps {
-    fixture: Match;
+    match: Match;
 }
 
 export default class Fixture extends React.Component<FixtureProps> {
 
     public render() {
 
-        const matchDay = new Date(this.props.fixture.date);
-        const matchDate = Date.parse(matchDay).toString("dd MMMM yyyy");
-        let matchResult = Date.parse(matchDay).toString("HH.mm");
+        const matchDay = new Date(this.props.match.utcDate);
+        const matchDate = matchDay.toString("dd MMMM yyyy");
+        let matchResult = matchDay.toString("HH.mm");
 
         if (matchDay < Date.today()) {
             matchResult =
-                `${this.props.fixture.result.goalsHomeTeam} : ${this.props.fixture.result.goalsAwayTeam}`;
+                `${this.props.match.score.fullTime.homeTeam} : ${this.props.match.score.fullTime.awayTeam}`;
         }
 
         let aggregateResult;
-        if (this.props.fixture.result.aggregateGoalsHomeTeam) {
-            aggregateResult = <div><span style={{fontSize: "0.8em"}}>
-                Aggregate: {this.props.fixture.result.aggregateGoalsHomeTeam}-{this.props.fixture.result.aggregateGoalsAwayTeam}
-            </span></div>;
+        if (this.props.match.score.aggregate) {
+            aggregateResult = (
+                <div><span style={{fontSize: "0.8em"}}>
+                    Aggregate: {this.props.match.score.aggregate.homeTeam}-{this.props.match.score.aggregate.awayTeam}
+                </span></div>
+            );
         }
 
-        if (this.props.fixture.result.extraTime) {
+        if (this.props.match.score.extraTime) {
             matchResult =
-                `${this.props.fixture.result.extraTime.goalsHomeTeam} : ${this.props.fixture.result.extraTime.goalsAwayTeam}`;
+                `${this.props.match.score.extraTime.homeTeam} : ${this.props.match.score.extraTime.awayTeam}`;
         }
 
-        const penalties;
-        if (this.props.fixture.result.penaltyShootout) {
-            penalties = `(${this.props.fixture.result.penaltyShootout.goalsHomeTeam}-${this.props.fixture.result.penaltyShootout.goalsAwayTeam} p)`;
-        } else if (this.props.fixture.result.extraTime) {
+        let penalties;
+        if (this.props.match.score.penalties) {
+            penalties = `(${this.props.match.score.penalties.homeTeam}-${this.props.match.score.penalties.awayTeam} p)`;
+        } else if (this.props.match.score.extraTime) {
             penalties = "Extra Time";
         }
 
@@ -41,17 +43,23 @@ export default class Fixture extends React.Component<FixtureProps> {
             <li className="list-group-item">
                 <div><h6>{matchDate}</h6></div>
                 <div className="row text-center fixture">
-                    <span className="col-md-3 col-md-offset-1">{this.props.fixture.homeTeam.shortName}</span>
-                    <img src={this.props.fixture.homeTeam.crestUrl} alt={this.props.fixture.homeTeam.shortName}
-                         className="img-responsive match-logo col-md-1"/>
+                    <span className="col-md-3 col-md-offset-1">{this.props.match.homeTeam.shortName}</span>
+                    <img
+                        src={this.props.match.homeTeam.crestUrl}
+                        alt={this.props.match.homeTeam.shortName}
+                        className="img-responsive match-logo col-md-1"
+                    />
                     <div className="col-md-2">
                         <div><span className="match-result">{matchResult}</span></div>
                         {aggregateResult}
                         <span className="text-success" style={{fontSize: "0.7em"}}>{penalties}</span>
                     </div>
-                    <img src={this.props.fixture.awayTeam.crestUrl} alt={this.props.fixture.awayTeam.shortName}
-                         className="img-responsive match-logo col-md-1"/>
-                    <span className="col-md-3">{this.props.fixture.awayTeam.shortName}</span>
+                    <img
+                        src={this.props.match.awayTeam.crestUrl}
+                        alt={this.props.match.awayTeam.shortName}
+                        className="img-responsive match-logo col-md-1"
+                    />
+                    <span className="col-md-3">{this.props.match.awayTeam.shortName}</span>
                 </div>
             </li>
         );
