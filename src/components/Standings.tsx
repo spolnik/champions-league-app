@@ -43,11 +43,11 @@ export default class Standings extends React.Component<StandingsProps> {
                         <th>#</th>
                         <th>Team</th>
                         <th data-tip="Played">P</th>
-                        <th className="hidden-xs" data-tip="Won">W</th>
-                        <th className="hidden-xs" data-tip="Drawn">D</th>
-                        <th className="hidden-xs" data-tip="Lost">L</th>
-                        <th className="hidden-xs" data-tip="Goals For">GF</th>
-                        <th className="hidden-xs" data-tip="Goals Against">GA</th>
+                        <th className="d-none d-sm-table-cell" data-tip="Won">W</th>
+                        <th className="d-none d-sm-table-cell" data-tip="Drawn">D</th>
+                        <th className="d-none d-sm-table-cell" data-tip="Lost">L</th>
+                        <th className="d-none d-sm-table-cell" data-tip="Goals For">GF</th>
+                        <th className="d-none d-sm-table-cell" data-tip="Goals Against">GA</th>
                         <th data-tip="Goals Difference">GD</th>
                         <th data-tip="Points">Pts</th>
                     </tr>
