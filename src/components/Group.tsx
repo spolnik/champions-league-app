@@ -1,4 +1,13 @@
+import classnames from "classnames";
 import * as React from "react";
+import {
+    Nav,
+    NavItem,
+    NavLink, Row,
+    TabContent,
+    TabPane,
+} from "reactstrap";
+
 import Group from "../domain/Group";
 import Fixtures from "./Fixtures";
 import Standings from "./Standings";
@@ -8,7 +17,20 @@ interface GroupBlockProps {
     group: Group;
 }
 
-export default class GroupBlock extends React.Component<GroupBlockProps> {
+interface GroupBlockState {
+    activeTab: string;
+}
+
+export default class GroupBlock extends React.Component<GroupBlockProps, GroupBlockState> {
+
+    constructor(props: GroupBlockProps) {
+        super(props);
+
+        this.toggle = this.toggle.bind(this);
+        this.state = {
+            activeTab: "standings",
+        } as GroupBlockState;
+    }
 
     public render() {
         const teamNodes = this.props.group.teams.sort((a, b) =>
@@ -25,63 +47,62 @@ export default class GroupBlock extends React.Component<GroupBlockProps> {
 
         return (
             <div className="group" id={this.props.group.name.toLowerCase()}>
-                <div className="panel panel-default">
-                    <div className="panel-heading">
-                        <h2 className="panel-title">Group {this.props.group.name}</h2>
-                    </div>
-
-                    <div className="panel-body">
-                        <ul className="nav nav-tabs" role="tablist">
-                            <li role="presentation" className="active">
-                                <a
-                                    href={`#standings${this.props.group.name}`}
-                                    aria-controls={`standings${this.props.group.name}`}
-                                    role="tab"
-                                    data-toggle="tab"
-                                >
-                                    Standings
-                                </a>
-                            </li>
-                            <li role="presentation">
-                                <a
-                                    href={`#fixtures${this.props.group.name}`}
-                                    aria-controls={`fixtures${this.props.group.name}`}
-                                    role="tab"
-                                    data-toggle="tab"
-                                >
-                                    Fixtures
-                                </a>
-                            </li>
-                            <li role="presentation">
-                                <a
-                                    href={`#teams${this.props.group.name}`}
-                                    aria-controls={`teams${this.props.group.name}`}
-                                    role="tab"
-                                    data-toggle="tab"
-                                >
-                                    Teams
-                                </a>
-                            </li>
-                        </ul>
-
-                        <div className="tab-content">
-                            <div
-                                role="tabpanel"
-                                className="tab-pane fade in active"
-                                id={`standings${this.props.group.name}`}
-                            >
-                                <Standings group={this.props.group}/>
-                            </div>
-                            <div role="tabpanel" className="tab-pane fade" id={`fixtures${this.props.group.name}`}>
-                                <Fixtures matches={this.props.group.matches} numOfMatchDay={6}/></div>
-                            <div role="tabpanel" className="tab-pane fade" id={`teams${this.props.group.name}`}>
-                                {teamNodes}
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+                <h2>Group {this.props.group.name}</h2>
+                <Nav tabs>
+                    <NavItem>
+                        <NavLink
+                            className={classnames({ active: this.state.activeTab === "standings" })}
+                            onClick={() => { this.toggle("standings"); }}
+                        >
+                            Standings
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink
+                            className={classnames({ active: this.state.activeTab === "fixtures" })}
+                            onClick={() => { this.toggle("fixtures"); }}
+                        >
+                            Fixtures
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink
+                            className={classnames({ active: this.state.activeTab === "teams" })}
+                            onClick={() => { this.toggle("teams"); }}
+                        >
+                            Teams
+                        </NavLink>
+                    </NavItem>
+                </Nav>
+                <TabContent
+                    activeTab={this.state.activeTab}
+                >
+                    <TabPane tabId="standings">
+                        <Standings group={this.props.group}/>
+                    </TabPane>
+                    <TabPane tabId="fixtures">
+                        <Fixtures matches={this.props.group.matches} numOfMatchDay={6}/>
+                    </TabPane>
+                    <TabPane
+                        tabId="teams"
+                        style={{
+                            borderColor: "#fff #dee2e6 #dee2e6 #dee2e6",
+                            borderStyle: "solid",
+                            borderWidth: "1px",
+                        }}
+                    >
+                        <Row style={{padding: "1.5em"}}>{teamNodes}</Row>
+                    </TabPane>
+                </TabContent>
             </div>
         );
+    }
+
+    private toggle(tab: string) {
+        if (this.state.activeTab !== tab) {
+            this.setState({
+                activeTab: tab,
+            });
+        }
     }
 }

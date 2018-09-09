@@ -9,14 +9,14 @@ interface TeamProps {
 
 const Team = (props: TeamProps) => (
     <div className="col-md-3 text-center">
-        <h2><strong>{props.name}</strong></h2>
+        <h3><strong>{props.name}</strong></h3>
         <img
             src={props.logoUrl}
             alt={props.name}
             className="img-thumbnail img-responsive"
         />
-        <h4>Founded: {props.founded}</h4>
-        <h4>{props.marketValue}</h4>
+        <h5>Founded: {props.founded}</h5>
+        <h5>{props.marketValue}</h5>
     </div>
 );
 
