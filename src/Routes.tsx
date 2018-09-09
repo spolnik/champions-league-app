@@ -10,7 +10,7 @@ const Routes = () => (
             path="/"
             // tslint:disable-next-line:jsx-no-lambda
             render={(routeProps: RouteProps) => (
-                <Home {...routeProps} user="Default User" />
+                <Home {...routeProps} />
             )}
         />
         <Route path="/about" component={About} />

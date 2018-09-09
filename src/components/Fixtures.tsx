@@ -1,7 +1,8 @@
 import * as React from "react";
+import {Pagination, PaginationItem, PaginationLink} from "reactstrap";
+
 import Match from "../domain/Match";
 import Fixture from "./Fixture";
-import {Pagination, PaginationItem, PaginationLink} from "reactstrap";
 
 interface FixturesProps {
     numOfMatchDay: number;
@@ -30,7 +31,7 @@ export default class Fixtures extends React.Component<FixturesProps, FixturesSta
         const paginationItemNodes = [...Array(this.props.numOfMatchDay).keys()]
             .map((idx) => idx + 1)
             .map((idx) => (
-                <PaginationItem active={this.state.round === idx}>
+                <PaginationItem active={this.state.round === idx} key={idx}>
                     <PaginationLink href="javascript:void(0)" onClick={() => this.changeRound(idx)}>
                         {idx}
                     </PaginationLink>

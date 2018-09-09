@@ -1,6 +1,7 @@
 import classnames from "classnames";
 import * as React from "react";
 import {
+    Badge,
     Nav,
     NavItem,
     NavLink, Row,
@@ -11,7 +12,7 @@ import {
 import Group from "../domain/Group";
 import Fixtures from "./Fixtures";
 import Standings from "./Standings";
-import Team from "./Team";
+import TeamBlock from "./TeamBlock";
 
 interface GroupBlockProps {
     group: Group;
@@ -34,16 +35,25 @@ export default class GroupBlock extends React.Component<GroupBlockProps, GroupBl
 
     public render() {
         const teamNodes = this.props.group.teams.sort((a, b) =>
-            parseInt(b.squadMarketValue, 10) - parseInt(a.squadMarketValue, 10),
+            b.squadMarketValue - a.squadMarketValue,
         ).map((team) => (
-            <Team
+            <TeamBlock
                 name={team.shortName}
                 logoUrl={team.crestUrl}
-                marketValue={team.squadMarketValue}
-                founded={team.founded}
+                marketValue={team.squadMarketValueAsString}
                 key={team.shortName}
             />
         ));
+
+        const allTeamsValue = this.props.group.teams
+            .map((team) => parseInt(team.squadMarketValue.toString(), 10))
+            .reduce((a, b) => a + b, 0);
+
+        const formatter = new Intl.NumberFormat("it-IT", {
+            currency: "EUR",
+            minimumFractionDigits: 0,
+            style: "currency",
+        });
 
         return (
             <div style={{paddingTop: "50px"}} id={this.props.group.name.toLowerCase()}>
@@ -91,7 +101,12 @@ export default class GroupBlock extends React.Component<GroupBlockProps, GroupBl
                             borderWidth: "1px",
                         }}
                     >
-                        <Row style={{padding: "1.5em"}}>{teamNodes}</Row>
+                        <Row style={{padding: "1.5em"}}>
+                            {teamNodes}
+                            <Badge className="col-md-12 text-center" color="default">
+                                {formatter.format(allTeamsValue)}
+                            </Badge>
+                        </Row>
                     </TabPane>
                 </TabContent>
             </div>

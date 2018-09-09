@@ -10,16 +10,18 @@ interface KnockoutStageProps {
 }
 
 const KnockoutStage = (props: KnockoutStageProps) => (
-    <div className="group" id={props.name.toLowerCase()}>
-        <div className="panel panel-default">
-            <div className="panel-heading">
-                <h2 className="panel-title">{props.name}</h2>
+    props.matches.length > 0 ? (
+            <div className="group" id={props.name.toLowerCase()}>
+                <div className="panel panel-default">
+                    <div className="panel-heading">
+                        <h2 className="panel-title">{props.name}</h2>
+                    </div>
+                    <div className="panel-body">
+                        <Fixtures matches={props.matches} numOfMatchDay={props.numOfMatchDay}/>
+                    </div>
+                </div>
             </div>
-            <div className="panel-body">
-                <Fixtures matches={props.matches} numOfMatchDay={props.numOfMatchDay}/>
-            </div>
-        </div>
-    </div>
+        ) : null
 );
 
 export default KnockoutStage;

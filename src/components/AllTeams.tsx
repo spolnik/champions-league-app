@@ -15,8 +15,17 @@ interface AllTeamsProps {
 export default class AllTeams extends React.Component<AllTeamsProps> {
 
     public render() {
+        const teams = this.props.teams.map((team) => new Team(
+            team.id,
+            team.shortName,
+            team.tla,
+            team.crestUrl,
+            team.founded,
+            team.squadMarketValue,
+            team.group,
+        ));
 
-        const groups = Group.buildGroups(this.props.teams, this.props.matches);
+        const groups = Group.buildGroups(teams, this.props.matches);
 
         const groupNodes = groups.map((group) => (
             <GroupBlock group={group} key={group.name}/>
@@ -27,22 +36,22 @@ export default class AllTeams extends React.Component<AllTeamsProps> {
                 {groupNodes}
                 <KnockoutStage
                     name="Round-of-16"
-                    matches={Group.buildKnockoutStage(this.props.teams, this.props.matches, 7)}
+                    matches={Group.buildKnockoutStage(teams, this.props.matches, 7)}
                     numOfMatchDay={8}
                 />
                 <KnockoutStage
                     name="Quater-finals"
-                    matches={Group.buildKnockoutStage(this.props.teams, this.props.matches, 8)}
+                    matches={Group.buildKnockoutStage(teams, this.props.matches, 8)}
                     numOfMatchDay={4}
                 />
                 <KnockoutStage
                     name="Semi-finals"
-                    matches={Group.buildKnockoutStage(this.props.teams, this.props.matches, 9)}
+                    matches={Group.buildKnockoutStage(teams, this.props.matches, 9)}
                     numOfMatchDay={2}
                 />
                 <KnockoutStage
                     name="Final"
-                    matches={Group.buildKnockoutStage(this.props.teams, this.props.matches, 10)}
+                    matches={Group.buildKnockoutStage(teams, this.props.matches, 10)}
                     numOfMatchDay={1}
                 />
             </div>

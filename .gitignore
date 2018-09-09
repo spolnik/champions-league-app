@@ -5,3 +5,4 @@ logs
 *.iml
 node_modules/
 .npm
+docs/assets
